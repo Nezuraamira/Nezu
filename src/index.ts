@@ -1,3 +1,22 @@
+// BANNER ALFIAN
+const showNezuraBanner = () => {
+  console.log(`
+ █████╗ ██╗     ███████╗██╗ █████╗ ███╗   ██╗
+██╔══██╗██║     ██╔════╝██║██╔══██╗████╗  ██║
+███████║██║     █████╗  ██║███████║██╔██╗ ██║
+██╔══██║██║     ██╔══╝  ██║██╔══██║██║╚██╗██║
+██║  ██║███████╗██║     ██║██║  ██║██║ ╚████║
+╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+
+          WhatsApp Bot Library
+              by ALFIAN 🜲
+  `)
+}
+
+// Jalankan sekali saat library di-load
+showNezuraBanner()
+
+
 import makeWASocket from './Socket/index'
 
 export * from '../WAProto/index.js'
